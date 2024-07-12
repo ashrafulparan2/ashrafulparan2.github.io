@@ -15,8 +15,8 @@ main:
   - title: "Projects"
     url: /projects/
     
-  # - title: "CV"
-  #   url: /cv/
+  - title: "Extracurricular"
+    url: /misc/
     
   # - title: "Guide"
   #   url: /markdown/
