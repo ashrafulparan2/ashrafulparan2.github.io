@@ -12,13 +12,13 @@ title                    : "Ashraful Islam Paran - CS Portfolio"
 title_separator          : "-"
 name                     : &name "Ashraful Islam Paran"
 description              : &description "CS Undergraduate at CUET with a focus on NLP and multimodal analysis."
-url                      : "https://ashrafulparan.github.io" # Change to your GitHub Pages URL
+url                      : "https://ashrafulparan2.github.io" # Change to your GitHub Pages URL
 baseurl                  : "" 
-repository               : "ashrafulparan/ashrafulparan.github.io" # Change to your repository
+repository               : "ashrafulparan/ashrafulparan2.github.io" # Change to your repository
 
 # Site Author
 author:
-  avatar                 : "profile.png"
+  avatar                 : "ashrafulparan.jpg"
   name                   : "Ashraful Islam Paran"
   bio                    : "I am a 4th-year CS undergraduate at CUET, interested in NLP and multimodal analysis. I am proactive, focused, and passionate about exploring new technologies."
   location               : "Chittagong, Bangladesh"
