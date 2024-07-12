@@ -26,10 +26,10 @@ author:
   email                  : "u1904029@student.cuet.ac.bd" 
 
   # Academic and professional profiles
-  googlescholar          : "https://scholar.google.com/citations?user=YourID"
-  github                 : "ashrafulparan"
-  linkedin               : "your-linkedin"  # Your LinkedIn username
-  twitter                : "ashrafulparan"  # Your Twitter handle
+  googlescholar          : "https://scholar.google.com/citations?user=v2DY9G0AAAAJ&hl=en"
+  github                 : "ashrafulparan2"
+  linkedin               : "ashrafulparan"  # Your LinkedIn username
+  # twitter                : "ashrafulparan"  # Your Twitter handle
 
 # Analytics
 analytics:
@@ -41,8 +41,8 @@ analytics:
 google_site_verification : "YOUR_VERIFICATION_CODE"
 
 # Social Sharing
-twitter:
-  username               : &twitter "ashrafulparan"
+# twitter:
+#   username               : &twitter "ashrafulparan"
 
 # Social Profiles
 social:
@@ -51,7 +51,7 @@ social:
   links:
     - "https://github.com/ashrafulparan2"
     - "https://linkedin.com/in/ashrafulparan"
-    - "https://twitter.com/ashrafulparan"
+    # - "https://twitter.com/ashrafulparan"
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -99,8 +99,8 @@ yandex_site_verification :
 
 
 # Social Sharing
-twitter:
-  username               : &twitter
+# twitter:
+#   username               : &twitter
 facebook:
   username               :
   app_id                 :
