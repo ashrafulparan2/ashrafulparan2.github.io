@@ -114,13 +114,6 @@ social:
   links: # An array of links to social media profiles
 
 
-# Analytics
-analytics:
-  provider               :  "google-analytics-4" # false (default), "google", "google-universal", "google-analytics-4", "custom"
-  google:
-    tracking_id          : "G-LGSL8GPK61"
-
-
 # Reading Files
 include:
   - .htaccess
