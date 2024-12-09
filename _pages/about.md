@@ -37,5 +37,5 @@ I am pursuing my B.Sc. in Computer Science and Engineering from CUET under the s
 -->
 <b>Contact: 📧</b> [<font color= "#990033" >u1904029@student.cuet.ac.bd</font>](u1904029@student.cuet.ac.bd)
 
-<b>My latest CV: </b> Ashraful-Islam-Paran-CV [<a href="https://drive.google.com/file/d/10vJ-v37ivWuUu2BkTabDafR662SEi2gR/view?usp=drive_link"><font color="#990033">CV</font></a>]
+<b>My latest CV: </b> Ashraful-Islam-Paran-CV [<a href="https://drive.google.com/file/d/1cBin4MLvDAwV1owR5s-EgEgkbwTlRTsD/view?usp=sharing"><font color="#990033">CV</font></a>]
 
