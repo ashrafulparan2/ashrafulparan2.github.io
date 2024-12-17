@@ -35,7 +35,7 @@ I am pursuing my B.Sc. in Computer Science and Engineering from CUET under the s
  <!---
  Previously, I worked as an Assistant Professor at Chittagong University of Engineering and Technology <a href="https://www.cuet.ac.bd/">(CUET)</a>. While working on academic and extracurricular projects, I develop my skill in C, C++, Python, Java, Php, and Latex. Working on several group projects help me to get communication as well as planning skills. 
 -->
-<b>Contact: 📧</b> [<font color="#990033">u1904029@student.cuet.ac.bd</font>](mailto:u1904029@student.cuet.ac.bd)
+<b>Contact: 📧</b> [<font color="#990033">u1904029@student.cuet.ac.bd</font>](mailto:u1904029@student.cuet.ac.bd), [<font color="#990033">ashrafulparan@gmail.com</font>](mailto:ashrafulparan@gmail.com)
 
 <b>My latest CV: [Ashraful_Islam_Paran_CV](../files/CV/Ashraful_Islam_Paran_Academic_CV.pdf)
 
