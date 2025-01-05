@@ -42,6 +42,7 @@ I am pursuing my B.Sc. in Computer Science and Engineering from CUET under the s
 ## <font color="#8174A0"> Updates </font>
 <div style="height: 400px; overflow: auto;">
 <pre>
+<span style="color:rgb(137, 103, 179)">Dec 27,24</span> Our paper has been awarded the "Best Technical Presentation Award" at the  27th International Conference on Computer and Information Technology (ICCIT 2024).
 <span style="color:rgb(137, 103, 179)">Dec 22,24</span> Our paper has been awarded the "Best Paper Award" at the  27th International Conference on Computer and Information Technology (ICCIT 2024).
 <span style="color:rgb(137, 103, 179)">Nov 28,24</span> One paper accepted at the  27th International Conference on Computer and Information Technology (ICCIT 2024).
 <span style="color:rgb(137, 103, 179)">Sep 22,24</span> Just received my certificate and plaque for being a top 15 finalist in the <a href="https://www.bdhonda.com/yes-award">Honda YES Award!</a>
