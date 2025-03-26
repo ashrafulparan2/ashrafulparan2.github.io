@@ -15,7 +15,17 @@ permalink: /projects/
 
 Here are some of my notable software development projects. Click on each project to learn more about its features and technical details.
 
+### [ChatWithPDF-Rag-App](/projects/chatwithpdf-rag-app/)
+- *Developed an intelligent PDF chatbot using RAG (Retrieval-Augmented Generation) technology.*
+- *Integrated Mistral-7B LLM and FAISS vector database for accurate document question-answering.*
+- *Built with Python, Streamlit, and Hugging Face's ecosystem for natural language processing.*
+- *Jan 2025 – Mar 2025*
 
+### [Bookify](/projects/bookify/)
+- *Developed a user-friendly online book store using the MERN stack (MongoDB, Express.js, React, Node.js).*
+- *Implemented secure user authentication with Firebase and a comprehensive admin dashboard.*
+- *Created features including book catalog, shopping cart, order management, and review system.*
+- *Dec 2024 – Jan 2025*
 
 ### [Caption Generator](/projects/caption-generator/)
 - *Utilized the `vit-gpt2-image-captioning` model to generate captions for images.*
@@ -35,11 +45,7 @@ Here are some of my notable software development projects. Click on each project
 - *Included features such as prayer times, Quran recitation, Qibla direction, and Islamic calendar to serve the diverse needs of the Muslim community.*
 - *Oct 2023 – Dec 2023*
 
-### [Bookify](/projects/bookify/)
-- *Developed a user-friendly online book store using the MERN stack (MongoDB, Express.js, React, Node.js).*
-- *Implemented secure user authentication with Firebase and a comprehensive admin dashboard.*
-- *Created features including book catalog, shopping cart, order management, and review system.*
-- *Jan 2024 – Present*
+
 
 ### [ThriftTrade](/projects/thrifttrade/)
 - *Developed "ThriftTrade," a second-hand marketplace website using TypeScript, Node.js, and MongoDB.*
