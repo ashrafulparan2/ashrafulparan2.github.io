@@ -11,7 +11,7 @@ permalink: /projects/bookify/
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-# 📚 Bookify
+
 
 [<i class="fa fa-github" style="color:black;"></i> View on GitHub](https://github.com/ashrafulparan2/Bookify) | 
 [<i class="fa fa-globe" style="color:black;"></i> Live Demo](https://bookify-front.vercel.app)

@@ -11,7 +11,6 @@ permalink: /projects/chatwithpdf-rag-app/
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-# ChatWithPDF-Rag-App
 
 [<i class="fa fa-github" style="color:black;"></i> View on GitHub](https://github.com/ashrafulparan2/ChatWithPDF-Rag-App) | 
 [<i class="fa fa-globe" style="color:black;"></i> Live Demo](https://chatwithpdf-rag.streamlit.app)

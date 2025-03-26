@@ -11,9 +11,6 @@ permalink: /projects/
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-# My Projects
-
-Here are some of my notable software development projects. Click on each project to learn more about its features and technical details.
 
 ### [ChatWithPDF-Rag-App](/projects/chatwithpdf-rag-app/) [<i class="fa fa-globe" style="color:black;"></i>](https://chatwithpdf-rag.streamlit.app)
 - *Developed an intelligent PDF chatbot using RAG (Retrieval-Augmented Generation) technology.*
