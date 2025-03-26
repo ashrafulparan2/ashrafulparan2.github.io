@@ -11,7 +11,7 @@ permalink: /projects/thrifttrade/
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-# ThriftTrade
+
 
 [<i class="fa fa-github" style="color:black;"></i> View on GitHub](https://github.com/ashrafulparan2/ThrifTrade)
 
