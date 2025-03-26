@@ -47,7 +47,7 @@ permalink: /projects/
 
 <div class="project-card">
     <div class="project-title">
-        <h3>ChatWithPDF-Rag-App</h3>
+        <h3><a href="/projects/chatwithpdf-rag-app/">ChatWithPDF-Rag-App</a></h3>
         <a href="https://chatwithpdf-rag.streamlit.app"><i class="fa fa-globe" style="color:black;"></i></a>
     </div>
     <div class="swiper">
@@ -72,7 +72,7 @@ permalink: /projects/
 
 <div class="project-card">
     <div class="project-title">
-        <h3>Bookify</h3>
+        <h3><a href="/projects/bookify/">Bookify</a></h3>
         <a href="https://bookify-front.vercel.app"><i class="fa fa-globe" style="color:black;"></i></a>
     </div>
     <div class="swiper">
@@ -109,7 +109,7 @@ permalink: /projects/
 
 <div class="project-card">
     <div class="project-title">
-        <h3>Caption Generator</h3>
+        <h3><a href="/projects/caption-generator/">Caption Generator</a></h3>
     </div>
     <div class="swiper">
         <div class="swiper-wrapper">
@@ -139,7 +139,7 @@ permalink: /projects/
 
 <div class="project-card">
     <div class="project-title">
-        <h3>Movie Recommender</h3>
+        <h3><a href="/projects/movie-recommender/">Movie Recommender</a></h3>
     </div>
     <div class="swiper">
         <div class="swiper-wrapper">
@@ -169,7 +169,7 @@ permalink: /projects/
 
 <div class="project-card">
     <div class="project-title">
-        <h3>Deen - An Islamic App</h3>
+        <h3><a href="/projects/deen-islamic-app/">Deen - An Islamic App</a></h3>
     </div>
     <div class="swiper">
         <div class="swiper-wrapper">
@@ -199,7 +199,7 @@ permalink: /projects/
 
 <div class="project-card">
     <div class="project-title">
-        <h3>ThriftTrade</h3>
+        <h3><a href="/projects/thrifttrade/">ThriftTrade</a></h3>
     </div>
     <div class="swiper">
         <div class="swiper-wrapper">
