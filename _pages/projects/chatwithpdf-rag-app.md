@@ -13,7 +13,8 @@ permalink: /projects/chatwithpdf-rag-app/
 
 # ChatWithPDF-Rag-App
 
-[<i class="fa fa-github" style="color:black;"></i> View on GitHub](https://github.com/ashrafulparan2/ChatWithPDF-Rag-App)
+[<i class="fa fa-github" style="color:black;"></i> View on GitHub](https://github.com/ashrafulparan2/ChatWithPDF-Rag-App) | 
+[<i class="fa fa-globe" style="color:black;"></i> Live Demo](https://chatwithpdf-rag.streamlit.app)
 
 ## Overview
 ChatWithPDF-Rag-App is an intelligent document interaction system that allows users to have natural conversations with PDF documents. The application uses RAG (Retrieval-Augmented Generation) technology to provide accurate, context-aware responses to questions about PDF content.

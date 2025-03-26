@@ -13,7 +13,8 @@ permalink: /projects/bookify/
 
 # 📚 Bookify
 
-[<i class="fa fa-github" style="color:black;"></i> View on GitHub](https://github.com/ashrafulparan2/Bookify)
+[<i class="fa fa-github" style="color:black;"></i> View on GitHub](https://github.com/ashrafulparan2/Bookify) | 
+[<i class="fa fa-globe" style="color:black;"></i> Live Demo](https://bookify-front.vercel.app)
 
 ## 📝 Overview
 **Bookify** is an user-friendly online book store built using the MERN stack (MongoDB, Express.js, React, Node.js). It provides a seamless experience for both readers and administrators. The system is designed to facilitate browsing, searching, and buying books.
