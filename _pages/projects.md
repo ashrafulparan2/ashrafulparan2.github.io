@@ -78,7 +78,19 @@ permalink: /projects/
     <div class="swiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="/assets/images/projects/bookify/image-1.png" alt="Bookify Interface">
+                <img src="/assets/images/projects/bookify/HomePage1.JPG" alt="Bookify Interface">
+            </div>
+            <div class="swiper-slide">
+                <img src="/assets/images/projects/bookify/HomePage2.JPG" alt="Bookify Homepage 2">
+            </div>
+            <div class="swiper-slide">
+                <img src="/assets/images/projects/bookify/HomePage3.JPG" alt="Bookify Homepage 3">
+            </div>
+            <div class="swiper-slide">
+                <img src="/assets/images/projects/bookify/AllBooksPage.JPG" alt="Bookify All Books">
+            </div>
+            <div class="swiper-slide">
+                <img src="/assets/images/projects/bookify/SingleBook.JPG" alt="Bookify Single Book">
             </div>
         </div>
         <div class="swiper-pagination"></div>
@@ -102,7 +114,13 @@ permalink: /projects/
     <div class="swiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="/assets/images/projects/caption-generator/image-1.png" alt="Caption Generator Interface">
+                <img src="/assets/images/projects/caption-generator/spalsh_poster.jpeg" alt="Caption Generator Interface">
+            </div>
+            <div class="swiper-slide">
+                <img src="/assets/images/projects/caption-generator/Picture1.jpg" alt="Caption Generator Example 1">
+            </div>
+            <div class="swiper-slide">
+                <img src="/assets/images/projects/caption-generator/Picture2.jpg" alt="Caption Generator Example 2">
             </div>
         </div>
         <div class="swiper-pagination"></div>
@@ -126,7 +144,13 @@ permalink: /projects/
     <div class="swiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="/assets/images/projects/movie-recommender/image-1.png" alt="Movie Recommender Interface">
+                <img src="/assets/images/projects/movie-recommender/2.png" alt="Movie Recommender Interface">
+            </div>
+            <div class="swiper-slide">
+                <img src="/assets/images/projects/movie-recommender/3.png" alt="Movie Recommender Results">
+            </div>
+            <div class="swiper-slide">
+                <img src="/assets/images/projects/movie-recommender/6.jpeg" alt="Movie Recommender Features">
             </div>
         </div>
         <div class="swiper-pagination"></div>
@@ -150,7 +174,13 @@ permalink: /projects/
     <div class="swiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="/assets/images/projects/deen-islamic-app/image-1.png" alt="Deen Islamic App Interface">
+                <img src="/assets/images/projects/deen-islamic-app/banner.png" alt="Deen Islamic App Banner">
+            </div>
+            <div class="swiper-slide">
+                <img src="/assets/images/projects/deen-islamic-app/logo.png" alt="Deen Islamic App Logo">
+            </div>
+            <div class="swiper-slide">
+                <img src="/assets/images/projects/deen-islamic-app/zakat.png" alt="Deen Islamic App Zakat Feature">
             </div>
         </div>
         <div class="swiper-pagination"></div>
@@ -174,7 +204,16 @@ permalink: /projects/
     <div class="swiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="/assets/images/projects/thrifttrade/image-1.png" alt="ThriftTrade Interface">
+                <img src="/assets/images/projects/thrifttrade/Picture1.png" alt="ThriftTrade Interface">
+            </div>
+            <div class="swiper-slide">
+                <img src="/assets/images/projects/thrifttrade/Picture2.png" alt="ThriftTrade Features">
+            </div>
+            <div class="swiper-slide">
+                <img src="/assets/images/projects/thrifttrade/Picture3.png" alt="ThriftTrade Categories">
+            </div>
+            <div class="swiper-slide">
+                <img src="/assets/images/projects/thrifttrade/Picture4.png" alt="ThriftTrade Items">
             </div>
         </div>
         <div class="swiper-pagination"></div>
