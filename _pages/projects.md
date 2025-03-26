@@ -15,7 +15,7 @@ permalink: /projects/
 
 Here are some of my notable software development projects. Click on each project to learn more about its features and technical details.
 
-## Recent Projects
+
 
 ### [Caption Generator](/projects/caption-generator/)
 - *Utilized the `vit-gpt2-image-captioning` model to generate captions for images.*
@@ -35,7 +35,6 @@ Here are some of my notable software development projects. Click on each project
 - *Included features such as prayer times, Quran recitation, Qibla direction, and Islamic calendar to serve the diverse needs of the Muslim community.*
 - *Oct 2023 – Dec 2023*
 
-## Past Projects
 
 ### [ThriftTrade](/projects/thrifttrade/)
 - *Developed "ThriftTrade," a second-hand marketplace website using TypeScript, Node.js, and MongoDB.*
@@ -43,8 +42,3 @@ Here are some of my notable software development projects. Click on each project
 - *Designed and built RESTful APIs to manage listings, user profiles, and transactions.*
 - *Integrated a live auctioning feature to enable real-time bidding on items.*
 - *Jan 2023 – Mar 2023*
-
-### [Football Manager](/projects/football-manager/)
-- *Developed "Football Manager," a Java Swing application for comprehensive player management.*
-- *Implemented features for adding, updating, and deleting player profiles with detailed statistics.*
-- *Integrated search and filter functionalities to quickly find and manage player information.*
