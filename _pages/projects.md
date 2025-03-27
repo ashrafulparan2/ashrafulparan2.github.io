@@ -26,7 +26,7 @@ permalink: /projects/
 }
 .project-title a {
     text-decoration: none;
-    color: rgba(0, 0, 238, 0.1);
+    color: rgba(1, 123, 255, 1);
 }
 .project-description {
     margin-top: 1rem;
