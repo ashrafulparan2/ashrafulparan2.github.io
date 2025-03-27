@@ -32,9 +32,7 @@ I am a 4th-year CS undergraduate at CUET. I am proactive, focused, and passionat
 <p align="justify">
 I am pursuing my B.Sc. in Computer Science and Engineering from CUET under the supervision of <a href="https://scholar.google.com/citations?user=srYxYhcAAAAJ&hl=en&authuser=2"> Dr. Moshiul Hoque</a> as a member of the CUET NLP Lab. Besides research, I love to work with Data structures and Algorithms. Throughout my academic career, I have participated in ICPC, IUPC, and numerous national-level programming contests. While working on academic and extracurricular projects, I develop my skills in C, C++, Python, Java, and Latex. Working on several group projects helped me develop communication and planning skills. 
 </p>
- <!---
- Previously, I worked as an Assistant Professor at Chittagong University of Engineering and Technology <a href="https://www.cuet.ac.bd/">(CUET)</a>. While working on academic and extracurricular projects, I develop my skill in C, C++, Python, Java, Php, and Latex. Working on several group projects help me to get communication as well as planning skills. 
--->
+
 <b>Contact: 📧</b> [<font color="#990033">u1904029@student.cuet.ac.bd</font>](mailto:u1904029@student.cuet.ac.bd), [<font color="#990033">ashrafulparan@gmail.com</font>](mailto:ashrafulparan@gmail.com)
 
 <b>My latest CV: [Ashraful_Islam_Paran_CV](../files/CV/Ashraful_Islam_Paran_Academic_CV.pdf)
@@ -43,7 +41,7 @@ I am pursuing my B.Sc. in Computer Science and Engineering from CUET under the s
 <div style="height: 400px; overflow: auto;">
 <pre>
 <span style="color:rgb(137, 103, 179)">Mar 20,25</span> Selected as a Virtual Volunteer for NAACL 2025
-<span style="color:rgb(137, 103, 179)">Mar 1,25</span> One paper accepted at DravidianLangTech-2025.
+<span style="color:rgb(137, 103, 179)">Mar 01,25</span> One paper accepted at DravidianLangTech-2025.
 <span style="color:rgb(137, 103, 179)">Dec 27,24</span> Our paper has been awarded the "Best Technical Presentation Award" at the  27th International Conference on Computer and Information Technology (ICCIT 2024).
 <span style="color:rgb(137, 103, 179)">Dec 22,24</span> Our paper has been awarded the "Best Paper Award" at the  27th International Conference on Computer and Information Technology (ICCIT 2024).
 <span style="color:rgb(137, 103, 179)">Nov 28,24</span> One paper accepted at the  27th International Conference on Computer and Information Technology (ICCIT 2024).
@@ -54,7 +52,7 @@ I am pursuing my B.Sc. in Computer Science and Engineering from CUET under the s
 <span style="color:rgb(137, 103, 179)">Jun 29,24</span> One paper has been published at 18th International Workshop on Semantic Evaluation 
 <span style="color:rgb(137, 103, 179)">Jun 27,24</span> Two of our submission got accepted at the prestigious ArabicNLP-2024 conference!
 <span style="color:rgb(137, 103, 179)">Jun 27,24</span> Two of our submission got accepted at CLEF 2024 (Conference and Labs of the Evaluation Forum (CLEF 2024))!
-<span style="color:rgb(137, 103, 179)">Jun 22,24</span> Virtually attending 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics! 🎉
+<span style="color:rgb(137, 103, 179)">Jun 22,24</span> Virtually attending 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics!
 <span style="color:rgb(137, 103, 179)">Apr 28,24</span> Our team SemanticCUETSync has achieved 5th place (out of 47 teams) at the IUT ICT Fest 2024 Datathon: ASR for Regional Dialects
 
 
