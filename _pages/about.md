@@ -40,9 +40,9 @@ I am pursuing my B.Sc. in Computer Science and Engineering from CUET under the s
 ## <font color="#8174A0"> Updates </font>
 <div style="height: 400px; overflow: auto;">
 <pre>
-<span style="color:rgb(137, 103, 179)">June 28,25</span> Received my certificate and award for being a top 15 finalist in the <a href="https://www.bdhonda.com/yes-award">Honda YES Award 2024!</a>
-<span style="color:rgb(137, 103, 179)">June 12,25</span> <a href="https://ashrafulparan2.github.io/publication/3"> One Paper </a> published in IEEE Xplore
-<span style="color:rgb(137, 103, 179)">June 03,25</span> Attended NAACL 2025 and presented our paper
+<span style="color:rgb(137, 103, 179)">Jun 28,25</span> Received my certificate and award for being a top 15 finalist in the <a href="https://www.bdhonda.com/yes-award">Honda YES Award 2024!</a>
+<span style="color:rgb(137, 103, 179)">Jun 12,25</span> <a href="https://ashrafulparan2.github.io/publication/3">One Paper </a> published in IEEE Xplore
+<span style="color:rgb(137, 103, 179)">Jun 03,25</span> Attended NAACL 2025 and presented our paper
 <span style="color:rgb(137, 103, 179)">May 31,25</span> Served as a Virtual Volunteer for NAACL 2025
 <span style="color:rgb(137, 103, 179)">Mar 20,25</span> Selected as a Virtual Volunteer for NAACL 2025
 <span style="color:rgb(137, 103, 179)">Mar 01,25</span> One paper accepted at DravidianLangTech-2025.
