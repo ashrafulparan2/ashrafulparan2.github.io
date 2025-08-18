@@ -7,8 +7,8 @@ permalink: /education/
 
 **Chittagong University of Engineering and Technology [(CUET)](https://www.cuet.ac.bd/dept/cse)**  
 _Bachelors in Computer Science and Engineering_  
-CGPA: <b>3.94</b>/4.00 <br>
-Study Period: <b>Feb 2020 - Present</b>  
+CGPA: <b>3.95</b>/4.00 <br>
+Study Period: <b>Feb 2020 - July 2025</b>  
 Supervisor: [Prof. Moshiul Hoque](https://scholar.google.com/citations?hl=en&user=srYxYhcAAAAJ&view_op=list_works&sortby=pubdate)
 
 **Saint Joseph Higher Secondary School**  
