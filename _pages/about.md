@@ -43,7 +43,7 @@ Besides research, I love to work with Data structures and Algorithms. Throughout
 ## <font color="#8174A0"> Updates </font>
 <div style="height: 400px; overflow: auto;">
 <pre>
-<span style="color:rgb(137, 103, 179)">Jul 31,25</span> Attended ACL 2025 and presented our paper</a>
+<span style="color:rgb(137, 103, 179)">Jul 31,25</span> Attended ACL 2025 and presented our paper
 <span style="color:rgb(137, 103, 179)">Jun 28,25</span> Received my certificate and award for being a top 15 finalist in the <a href="https://www.bdhonda.com/yes-award">Honda YES Award 2024!</a>
 <span style="color:rgb(137, 103, 179)">Jun 12,25</span> <a href="https://ashrafulparan2.github.io/publication/3">One Paper</a> published in IEEE Xplore
 <span style="color:rgb(137, 103, 179)">Jun 03,25</span> Attended NAACL 2025 and presented our paper
