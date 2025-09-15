@@ -36,7 +36,7 @@ I am a fresh CS graduate from CUET. I am proactive, focused, and passionate abou
 Besides research, I love to work with Data structures and Algorithms. Throughout my academic career, I have participated in ICPC, IUPC, and numerous national-level programming contests. While working on academic and extracurricular projects, I develop my skills in C, C++, Python, Java, and Latex. Working on several group projects helped me develop communication and planning skills. 
 </p>
 
-<b>Contact: 📧</b> [<font color="#990033">u1904029@student.cuet.ac.bd</font>](mailto:u1904029@student.cuet.ac.bd), [<font color="#990033">ashrafulparan@gmail.com</font>](mailto:ashrafulparan@gmail.com)
+<b>Contact: 📧</b> [<font color="#ffdce8ff">u1904029@student.cuet.ac.bd</font>](mailto:u1904029@student.cuet.ac.bd), [<font color="#ffdce8ff">ashrafulparan@gmail.com</font>](mailto:ashrafulparan@gmail.com)
 
 <b>My latest CV: [Ashraful_Islam_Paran_CV](../files/CV/CV_Ashraful_Islam_Paran_Academic.pdf)
 
