@@ -23,7 +23,7 @@ redirect_from:
 
 <p align="justify">
 
-I am a fresh CS graduate from CUET. I am proactive, focused, and passionate about exploring new technologies. I am enthusiastic about Multilingual and Multimodal NLP research. I am interested in exploring how existing resources of resource-rich languages can be effectively utilized to develop multilingual tools focusing on improving efficiency for low/zero-resource languages.
+I am a recent CS graduate from CUET. I am proactive, focused, and passionate about exploring new technologies. I am enthusiastic about Multilingual and Multimodal NLP research. I am interested in exploring how existing resources of resource-rich languages can be effectively utilized to develop multilingual tools focusing on improving efficiency for low/zero-resource languages.
 
 </p> 
  <!---
