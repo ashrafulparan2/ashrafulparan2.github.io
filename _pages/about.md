@@ -39,16 +39,6 @@ I am also passionate about teaching and mentoring students in areas such as Mach
 
 
 
-</p> 
- <!---
- I am enthusiastic about Multilingual and Multimodal NLP research. I am interested in exploring how existing resources of resource-rich languages can be effectively utilized to develop multilingual tools focusing on improving efficiency for low/zero-resource languages.
--->
-<p align="justify">
-<!-- I am pursuing my B.Sc. in Computer Science and Engineering from CUET under the supervision of <a href="https://scholar.google.com/citations?user=srYxYhcAAAAJ&hl=en&authuser=2"> Dr. Moshiul Hoque</a> as a member of the CUET NLP Lab.  -->
-
-
-</p>
-
 <b>Contact: 📧</b> [<font color="#ffdce8ff">u1904029@student.cuet.ac.bd</font>](mailto:u1904029@student.cuet.ac.bd), [<font color="#ffdce8ff">ashrafulparan@gmail.com</font>](mailto:ashrafulparan@gmail.com)
 
 <b>My latest CV: [Ashraful_Islam_Paran_CV](../files/CV/CV_Ashraful_Islam_Paran_Academic.pdf)
