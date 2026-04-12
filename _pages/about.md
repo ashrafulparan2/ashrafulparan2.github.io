@@ -23,7 +23,20 @@ redirect_from:
 
 <p align="justify">
 
-I am a recent CS graduate from CUET. I am proactive, focused, and passionate about exploring new technologies. I am enthusiastic about Multilingual and Multimodal NLP research. I am interested in exploring how existing resources of resource-rich languages can be effectively utilized to develop multilingual tools focusing on improving efficiency for low/zero-resource languages.
+
+I am a Lecturer in the Department of Computer Science and Engineering at United International University, Bangladesh. I earned my B.Sc. in Computer Science and Engineering from the Chittagong University of Engineering and Technology (CUET), graduating summa cum laude and ranking 2nd in my class. Previously, I served as a Lecturer in the Department of Computer Science and Engineering at Southeast University.
+
+My research focuses on Natural Language Processing (NLP), Large Language Models (LLMs), and Multimodal Learning, with a particular emphasis on building intelligent systems that integrate text, image, audio, and video understanding for low-resource languages such as Bengali. I have published several papers in top-tier international conferences, including SemEval, CLEF, DravidianLangTech, and ICCIT, and have received multiple distinctions for my research contributions. My recent work explores multimodal fusion techniques for hate speech detection, check-worthiness estimation, and emotion recognition using transformer-based and large language model architectures.
+
+I have served as a reviewer for ACL Rolling Review, NAACL, CLEF, and SemEval, contributing to the peer-review process of high-impact academic venues.
+
+I am also passionate about teaching and mentoring students in areas such as Machine Learning, Operating Systems, and Data Mining, encouraging practical and research-oriented learning. My broader interests include open-source development, competitive programming, and community building within the Bangladeshi research ecosystem.
+
+Research Interests:
+
+Natural Language Processing, Large Language Models, Multimodal Learning, Multimodal Large Language Models, and Low-resource AI.
+
+
 
 </p> 
  <!---
@@ -33,7 +46,6 @@ I am a recent CS graduate from CUET. I am proactive, focused, and passionate abo
 <!-- I am pursuing my B.Sc. in Computer Science and Engineering from CUET under the supervision of <a href="https://scholar.google.com/citations?user=srYxYhcAAAAJ&hl=en&authuser=2"> Dr. Moshiul Hoque</a> as a member of the CUET NLP Lab.  -->
 
 
-Besides research, I love to work with Data structures and Algorithms. Throughout my academic career, I have participated in ICPC, IUPC, and numerous national-level programming contests. While working on academic and extracurricular projects, I develop my skills in C, C++, Python, Java, and Latex. Working on several group projects helped me develop communication and planning skills. 
 </p>
 
 <b>Contact: 📧</b> [<font color="#ffdce8ff">u1904029@student.cuet.ac.bd</font>](mailto:u1904029@student.cuet.ac.bd), [<font color="#ffdce8ff">ashrafulparan@gmail.com</font>](mailto:ashrafulparan@gmail.com)
