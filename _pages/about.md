@@ -25,16 +25,17 @@ redirect_from:
 
 
 I am a Lecturer in the Department of Computer Science and Engineering at United International University, Bangladesh. I earned my B.Sc. in Computer Science and Engineering from the Chittagong University of Engineering and Technology (CUET), graduating summa cum laude and ranking 2nd in my class. Previously, I served as a Lecturer in the Department of Computer Science and Engineering at Southeast University.
+</p> 
 
+<p align="justify">
 My research focuses on Natural Language Processing (NLP), Large Language Models (LLMs), and Multimodal Learning, with a particular emphasis on building intelligent systems that integrate text, image, audio, and video understanding for low-resource languages such as Bengali. I have published several papers in top-tier international conferences, including SemEval, CLEF, DravidianLangTech, and ICCIT, and have received multiple distinctions for my research contributions. My recent work explores multimodal fusion techniques for hate speech detection, check-worthiness estimation, and emotion recognition using transformer-based and large language model architectures.
-
+</p> 
+<p align="justify">
 I have served as a reviewer for ACL Rolling Review, NAACL, CLEF, and SemEval, contributing to the peer-review process of high-impact academic venues.
-
+</p> 
+<p align="justify">
 I am also passionate about teaching and mentoring students in areas such as Machine Learning, Operating Systems, and Data Mining, encouraging practical and research-oriented learning. My broader interests include open-source development, competitive programming, and community building within the Bangladeshi research ecosystem.
-
-Research Interests:
-
-Natural Language Processing, Large Language Models, Multimodal Learning, Multimodal Large Language Models, and Low-resource AI.
+</p> 
 
 
 
