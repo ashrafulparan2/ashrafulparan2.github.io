@@ -1,22 +1,25 @@
 ---
-title: 'Projects'
-excerpt: 'A collection of my software development projects'
-author_profile: true
+title: ""
+excerpt: "A collection of my software development projects"
 permalink: /projects/
+classes: page--plain-links
 ---
 
 <head>
-<title>Font Awesome Icons</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <style>
 .project-card {
     margin-bottom: 2rem;
-    padding: 1rem;
+    padding: 1.2rem;
+    border: 1px solid #dcdcdc;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background: #fff;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.project-card:hover {
+    border-color: #02225F;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 .project-title {
     display: flex;
@@ -24,26 +27,40 @@ permalink: /projects/
     gap: 0.5rem;
     margin-bottom: 1rem;
 }
+.project-title h3 {
+    margin: 0;
+    color: #02225F;
+}
 .project-title a {
     text-decoration: none;
-    color: rgba(1, 123, 255, 1);
+    color: #02225F;
+}
+.project-title a:hover {
+    color: #1A5FA8;
 }
 .project-description {
     margin-top: 1rem;
+    font-size: 0.95em;
+    line-height: 1.5;
 }
 .swiper {
     width: 100%;
     height: 300px;
     margin-bottom: 1rem;
+    border-radius: 6px;
+    overflow: hidden;
 }
 .swiper-slide img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 </style>
 </head>
+
+## <font color="#02225F"> Projects </font>
+
 
 <div class="project-card">
     <div class="project-title">

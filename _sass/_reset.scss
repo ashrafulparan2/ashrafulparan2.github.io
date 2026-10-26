@@ -7,6 +7,7 @@
 html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
+  scroll-behavior: smooth;
   background-color: $background-color;
   font-size: 16px;
 

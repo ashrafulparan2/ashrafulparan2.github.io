@@ -430,3 +430,12 @@
     }
   }
 }
+.greedy-nav {
+  a {
+    margin: 0 1.35rem;
+  }
+
+  .visible-links li:first-child a {
+    margin-left: 0;
+  }
+}

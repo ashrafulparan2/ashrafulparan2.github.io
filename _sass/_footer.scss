@@ -90,3 +90,21 @@
     }
   }
 }
+
+.site-updated {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1030;
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.85);
+  border-top-left-radius: 4px;
+  color: $gray;
+  font-family: $global-font-family;
+  font-size: $type-size-7;
+  pointer-events: none;
+
+  @include breakpoint(max-width $small) {
+    display: none;
+  }
+}

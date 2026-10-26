@@ -1,0 +1,472 @@
+/* ==========================================================================
+   PUBLICATIONS
+   ========================================================================== */
+
+$pub-link : #1A5FA8;
+
+.pubbar {
+  margin: 1.4em 0 1em;
+  padding-bottom: 0.85em;
+  border-bottom: 1px solid mix(#fff, $light-gray, 55%);
+}
+
+.pubbar__top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-bottom: 0.7em;
+}
+
+.pubsearch {
+  display: flex;
+  align-items: center;
+  gap: 0.55em;
+  flex: 1;
+  min-width: 15em;
+  padding: 7px 15px;
+  border: 1px solid mix(#fff, $light-gray, 45%);
+  border-radius: 999px;
+  background: #fff;
+
+  i {
+    color: $gray;
+    font-size: 0.82em;
+  }
+
+  input {
+    flex: 1;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    color: $text-color;
+    font-family: $global-font-family;
+    font-size: $type-size-6;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+
+  &:focus-within {
+    border-color: mix(#fff, $primary-color, 50%);
+  }
+}
+
+.pubsel {
+  width: auto;
+  margin: 0;
+  padding: 7px 30px 7px 14px;
+  border: 1px solid mix(#fff, $light-gray, 45%);
+  border-radius: 999px;
+  background-color: #fff;
+  color: $text-color;
+  font-family: $global-font-family;
+  font-size: $type-size-6;
+  cursor: pointer;
+
+  &.is-set {
+    border-color: $primary-color;
+    background-color: $primary-color;
+    color: #fff;
+  }
+}
+
+.pubbar__foot {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+}
+
+.pubbar__clear {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #9B2242;
+  font-family: $global-font-family;
+  font-size: $type-size-7;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.pubempty {
+  margin: 1.4em 0;
+  padding: 2em 1em;
+  border: 1px dashed mix(#fff, $light-gray, 45%);
+  border-radius: 6px;
+  color: $gray;
+  font-size: $type-size-6;
+  text-align: center;
+}
+
+.pubbar__filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+}
+
+.pubbar__btn {
+  padding: 5px 13px;
+  border: 1px solid mix(#fff, $light-gray, 45%);
+  border-radius: 999px;
+  background: #fff;
+  color: $text-color;
+  font-family: $global-font-family;
+  font-size: $type-size-6;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+
+  span {
+    color: $gray;
+    margin-left: 0.2em;
+  }
+
+  &:hover {
+    background: mix(#fff, $lighter-gray, 40%);
+  }
+
+  &.is-active {
+    background: $primary-color;
+    border-color: $primary-color;
+    color: #fff;
+
+    span {
+      color: mix($primary-color, #fff, 35%);
+    }
+  }
+}
+
+.pubbar__count {
+  color: $gray;
+  font-size: $type-size-7;
+}
+
+.pub-year {
+  margin: 1.6em 0 0.3em;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid mix(#fff, $light-gray, 62%);
+  color: $primary-color;
+  font-size: $type-size-4;
+  font-weight: 700;
+}
+
+.pubs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.pub {
+  display: grid;
+  grid-template-columns: 5.5em 1fr;
+  gap: 1em;
+  padding: 0.75em 0.95em;
+  border: 1px solid mix(#fff, $light-gray, 48%);
+  border-radius: 6px;
+  background: #fff;
+  font-size: $type-size-5;
+  line-height: 1.45;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+
+  &:hover {
+    background: #f2f6fb;
+    border-color: #d6e0ee;
+  }
+
+  &.is-hidden {
+    display: none;
+  }
+}
+
+.pub + .pub {
+  margin-top: 0.5em;
+}
+
+.pub__year {
+  display: block;
+  margin-top: 3px;
+  color: $gray;
+  font-size: 0.62em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.pub mark {
+  padding: 0 1px;
+  border-radius: 2px;
+  background: #fdf3c7;
+  color: inherit;
+}
+
+.pub__badge {
+  padding-top: 0.15em;
+
+  abbr {
+    display: block;
+    padding: 4px 8px;
+    border: 1px solid mix(#fff, $primary-color, 74%);
+    border-radius: 999px;
+    background: mix(#fff, $primary-color, 94%);
+    color: $primary-color;
+    font-size: $type-size-7;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    word-break: break-word;
+  }
+}
+
+.pub__tier {
+  display: block;
+  margin-top: 4px;
+  padding: 2px 8px;
+  border: 1px solid mix(#fff, $light-gray, 55%);
+  border-radius: 999px;
+  background: mix(#fff, $lighter-gray, 35%);
+  color: $gray;
+  font-size: 0.55em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.pub__title {
+  color: $text-color;
+  font-size: 0.875em;
+  font-weight: 600;
+  line-height: 1.4;
+
+  a {
+    color: $text-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $pub-link;
+    }
+  }
+}
+
+.pub__authors {
+  margin-top: 0.25em;
+  color: mix(#fff, $text-color, 18%);
+  font-size: 0.8125em;
+}
+
+.pub__me {
+  color: $primary-color;
+}
+
+.pub__meta {
+  margin-top: 0.15em;
+  color: $gray;
+  font-size: 0.9em;
+}
+
+.pub__note {
+  color: $gray;
+}
+
+.pub__award {
+  margin-top: 0.15em;
+  color: #8C4A5C;
+  font-style: italic;
+}
+
+.pub__links {
+  margin-top: 0.3em;
+}
+
+.pub__btn {
+  display: inline-block;
+  margin: 0 0.35em 0.25em 0;
+  padding: 3px 12px;
+  border: 1px solid #d6e0ee;
+  border-radius: 999px;
+  background: #f2f6fb;
+  color: $pub-link;
+  font-size: 0.8em;
+  text-decoration: none;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, color 0.15s ease-in-out;
+
+  &:hover {
+    background: #e2ecf9;
+    border-color: mix(#fff, $pub-link, 45%);
+    color: #12457a;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .pub {
+    grid-template-columns: 1fr;
+    gap: 0.25em;
+  }
+
+  .pub__badge abbr {
+    min-width: 0;
+  }
+
+  .pubbar {
+    justify-content: flex-start;
+  }
+}
+
+.pub-year.is-hidden {
+  display: none;
+}
+
+.pub-legend {
+  color: $gray;
+  font-size: $type-size-7;
+}
+
+.pub__btn i {
+  margin-right: 0.25em;
+  font-size: 0.9em;
+}
+
+.pub__award i {
+  margin-right: 0.2em;
+}
+
+$btn-kinds: (
+  paper   #f2f6fb #d6e0ee #1a5fa8 #e4edf8,
+  code    #f4f4f8 #dcdce6 #4a4a63 #eaeaf1,
+  data    #eff6f3 #d2e5dd #24705a #e2f0ea,
+  website #f3f2fa #dcd8ee #4a3f8f #e8e5f5,
+  slides  #fbf6ee #ecdfcb #8a5a1e #f5ebdc,
+  poster  #faf1f3 #ecd7dd #8c3a51 #f3e3e7,
+  talk    #f7f1fa #e5d6ee #6b3a80 #efe3f4,
+  media   #fdf4ec #f0dcc7 #98551f #f8e8d9
+);
+
+@each $name, $bg, $bd, $fg, $hv in $btn-kinds {
+  .pub__btn--#{$name} {
+    background: $bg;
+    border-color: $bd;
+    color: $fg;
+
+    &:hover {
+      background: $hv;
+      border-color: mix(#000, $bd, 12%);
+      color: mix(#000, $fg, 12%);
+    }
+  }
+}
+
+.profiles {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5em 0.55em;
+  margin: 1.2em 0 0.4em;
+}
+
+.profile {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45em;
+  padding: 6px 15px;
+  border: 1px solid mix(#fff, $primary-color, 70%);
+  border-radius: 999px;
+  background: mix(#fff, $primary-color, 96%);
+  color: $primary-color;
+  font-size: $type-size-6;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+
+  &:hover {
+    background: mix(#fff, $primary-color, 88%);
+    border-color: mix(#fff, $primary-color, 45%);
+    color: $primary-color;
+    text-decoration: none;
+  }
+
+  i {
+    font-size: 1.1em;
+    line-height: 1;
+  }
+}
+
+.profile__note {
+  margin-left: auto;
+  color: $gray;
+  font-size: $type-size-7;
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .profile__note {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+.page__content {
+  .profile,
+  .idlink,
+  .pub__btn,
+  .pub__title a,
+  .pub__badge a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.pubyears {
+  display: inline-flex;
+  margin-bottom: 0.7em;
+  border: 1px solid mix(#fff, $light-gray, 45%);
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.pubyear {
+  padding: 6px 15px;
+  border: 0;
+  border-right: 1px solid mix(#fff, $light-gray, 45%);
+  background: none;
+  color: $text-color;
+  font-family: $global-font-family;
+  font-size: $type-size-6;
+  cursor: pointer;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+
+  &:last-child {
+    border-right: 0;
+  }
+
+  &:hover {
+    background: mix(#fff, $lighter-gray, 40%);
+  }
+
+  &.is-active {
+    background: $primary-color;
+    color: #fff;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 600px) {
+  .pubyears {
+    flex-wrap: wrap;
+  }
+}

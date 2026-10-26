@@ -1,3 +1,178 @@
-<script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
+<script src="{{ base_path }}/assets/js/main.min.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var links = document.querySelectorAll("a[href]");
+    for (var i = 0; i < links.length; i++) {
+      var a = links[i];
+      if (a.hostname && a.hostname !== window.location.hostname) {
+        a.setAttribute("target", "_blank");
+        a.setAttribute("rel", "noopener noreferrer");
+      }
+    }
+  });
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var bar = document.querySelector(".pubbar");
+    if (!bar) return;
+
+    var LABEL = {
+      ie: "information extraction", mm: "multimodality multimodal", eval: "evaluation",
+      repr: "representation learning", clin: "clinical nlp health", sg: "social good",
+      ml: "multilingual low-resource bengali", data: "datasets benchmarks",
+      llm: "llms large language models", hate: "hate speech abusive",
+      fact: "misinformation check-worthiness subjectivity", intent: "intent semantic textual relatedness",
+      rl: "reinforcement learning", other: "others"
+    };
+
+    var pubs   = [].slice.call(document.querySelectorAll(".pub"));
+    var search = document.getElementById("pubSearch");
+    var venue  = document.getElementById("pubVenue");
+    var years  = document.getElementById("pubYears");
+    var yearSel = "";
+    var count  = document.getElementById("pubCount");
+    var empty  = document.getElementById("pubEmpty");
+    var topics = [];
+
+    pubs.forEach(function (el) {
+      var t = el.querySelector(".pub__title");
+      var a = el.querySelector(".pub__authors");
+      el._t = t ? t.innerHTML : "";
+      el._a = a ? a.innerHTML : "";
+      var tags = (el.getAttribute("data-tags") || "").split(" ")
+                   .map(function (k) { return LABEL[k] || k; }).join(" ");
+      el._hay = ((t ? t.textContent : "") + " " + (a ? a.textContent : "") + " " +
+                 (el.getAttribute("data-venue") || "") + " " + tags).toLowerCase();
+    });
+
+    function mark(html, q) {
+      if (!q) return html;
+      return html.replace(/>([^<]+)</g, function (all, txt) {
+        return ">" + txt.replace(new RegExp("(" + q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "ig"),
+                                 "<mark>$1</mark>") + "<";
+      });
+    }
+
+    function apply() {
+      var q = (search.value || "").trim().toLowerCase();
+      var v = venue.value, y = yearSel, shown = 0;
+
+      pubs.forEach(function (el) {
+        var okQ = !q || el._hay.indexOf(q) > -1;
+        var okV = !v || (el.getAttribute("data-venue") || "").indexOf("|" + v + "|") > -1;
+        var okY = !y || el.getAttribute("data-year") === y;
+        var tags = " " + (el.getAttribute("data-tags") || "") + " ";
+        var okT = !topics.length || topics.some(function (k) { return tags.indexOf(" " + k + " ") > -1; });
+        var ok = okQ && okV && okY && okT;
+        el.classList.toggle("is-hidden", !ok);
+        if (ok) shown++;
+
+        var t = el.querySelector(".pub__title"), a = el.querySelector(".pub__authors");
+        if (t) t.innerHTML = ok ? mark(">" + el._t + "<", q).slice(1, -1) : el._t;
+        if (a) a.innerHTML = ok ? mark(">" + el._a + "<", q).slice(1, -1) : el._a;
+      });
+
+      var active = !!(q || v || y || topics.length);
+      count.textContent = active
+        ? "Showing " + shown + " of " + pubs.length + " publications"
+        : "Showing selected " + pubs.length + " publications";
+      document.querySelectorAll(".pubbar__clear").forEach(function (b) { b.hidden = !active; });
+      if (empty) empty.hidden = shown !== 0;
+      venue.classList.toggle("is-set", !!v);
+      years.querySelectorAll(".pubyear").forEach(function (b) {
+        b.classList.toggle("is-active", b.getAttribute("data-year") === yearSel);
+      });
+
+      bar.querySelectorAll(".pubbar__btn").forEach(function (b) {
+        var f = b.getAttribute("data-filter");
+        b.classList.toggle("is-active", f === "all" ? !topics.length : topics.indexOf(f) > -1);
+      });
+    }
+
+    bar.addEventListener("click", function (e) {
+      var b = e.target.closest(".pubbar__btn");
+      if (!b) return;
+      var f = b.getAttribute("data-filter");
+      if (f === "all") topics = [];
+      else {
+        var at = topics.indexOf(f);
+        if (at > -1) topics.splice(at, 1); else topics.push(f);
+      }
+      apply();
+    });
+
+    search.addEventListener("input", apply);
+    venue.addEventListener("change", apply);
+    years.addEventListener("click", function (e) {
+      var b = e.target.closest(".pubyear");
+      if (!b) return;
+      yearSel = b.getAttribute("data-year");
+      apply();
+    });
+
+    document.querySelectorAll(".pubbar__clear").forEach(function (b) {
+      b.addEventListener("click", function () {
+        search.value = ""; venue.value = ""; yearSel = ""; topics = []; apply();
+      });
+    });
+
+    apply();
+  });
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var tabs = document.querySelectorAll(".ttab");
+    if (!tabs.length) return;
+
+    function show(key) {
+      for (var i = 0; i < tabs.length; i++) {
+        var k = tabs[i].getAttribute("data-tab");
+        tabs[i].classList.toggle("is-active", k === key);
+        var panel = document.getElementById("tab-" + k);
+        if (panel) panel.classList.toggle("is-hidden", k !== key);
+      }
+      if (history.replaceState) history.replaceState(null, "", "#" + key);
+    }
+
+    for (var i = 0; i < tabs.length; i++) {
+      tabs[i].addEventListener("click", function () {
+        show(this.getAttribute("data-tab"));
+      });
+    }
+
+    var want = (location.hash || "").replace("#", "");
+    show(document.getElementById("tab-" + want) ? want : tabs[0].getAttribute("data-tab"));
+  });
+  document.addEventListener("DOMContentLoaded", function () {
+    var btn = document.getElementById("miscToggle");
+    if (!btn) return;
+    var rows = document.querySelectorAll("details.mrow");
+
+    function sync() {
+      var anyClosed = false;
+      for (var i = 0; i < rows.length; i++) if (!rows[i].open) anyClosed = true;
+      btn.textContent = anyClosed ? "Expand all" : "Collapse all";
+      btn.classList.toggle("is-open", !anyClosed);
+    }
+
+    btn.addEventListener("click", function () {
+      var open = btn.textContent === "Expand all";
+      for (var i = 0; i < rows.length; i++) rows[i].open = open;
+      sync();
+    });
+
+    for (var i = 0; i < rows.length; i++) rows[i].addEventListener("toggle", sync);
+    sync();
+  });
+  document.addEventListener("DOMContentLoaded", function () {
+    var btn = document.getElementById("statsToggle");
+    var box = document.getElementById("statsBox");
+    if (!btn || !box) return;
+    btn.addEventListener("click", function () {
+      var hidden = box.classList.toggle("is-collapsed");
+      btn.classList.toggle("is-collapsed", hidden);
+    });
+  });
+</script>
 
 {% include analytics.html %}
+{% include /comments-providers/scripts.html %}
