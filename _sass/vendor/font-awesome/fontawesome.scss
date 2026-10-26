@@ -5,7 +5,19 @@
 @import 'variables';
 @import 'mixins';
 @import 'core';
-@import 'larger';
+.#{$fa-css-prefix}-lg {
+  font-size: (4em / 3);
+  line-height: (3em / 4);
+  vertical-align: -.0667em;
+}
+
+.#{$fa-css-prefix}-xs {
+  font-size: .75em;
+}
+
+.#{$fa-css-prefix}-sm {
+  font-size: .875em;
+}
 @import 'fixed-width';
 @import 'list';
 @import 'bordered-pulled';
