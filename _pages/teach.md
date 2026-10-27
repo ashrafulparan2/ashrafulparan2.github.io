@@ -8,7 +8,7 @@ redirect_from:
 ---
 {% include base_path %}
 <div class="ttabs">
-  <button class="ttab ttab--courses is-active" type="button" data-tab="courses"><i class="fas fa-chalkboard-teacher"></i> Courses</button>
+  <button class="ttab ttab--courses is-active" type="button" data-tab="courses"><i
   <button class="ttab ttab--mentorship" type="button" data-tab="mentorship"><i class="fas fa-user-graduate"></i> Mentorship</button>
   <button class="ttab ttab--leadership" type="button" data-tab="leadership"><i class="fas fa-hands-helping"></i> Leadership &amp; Service</button>
 </div>
@@ -20,26 +20,162 @@ redirect_from:
 <div class="courses">
 
   <div class="course">
-    <div class="course__key"><span class="course__code">CSE 411</span><span class="course__role">Lecturer</span></div>
+    <div class="course__key"><span class="course__code">AIP 263</span><span class="course__role">Fall 2026</span></div>
+    <div class="course__body">
+      <div class="course__title">Courses Offered by AIP</div>
+      <div class="course__meta">BSc in CSE &middot; Trimester</div>
+    </div>
+  </div>
+
+  <div class="course">
+    <div class="course__key"><span class="course__code">CSE 3422</span><span class="course__role">Section K</span></div>
+    <div class="course__body">
+      <div class="course__title">Software Engineering Laboratory</div>
+      <div class="course__meta">Tue 02:00 PM to 04:30 PM &middot; Room 422</div>
+    </div>
+  </div>
+
+  <div class="course">
+    <div class="course__key"><span class="course__code">CSE 1112</span><span class="course__role">Section C</span></div>
+    <div class="course__body">
+      <div class="course__title">Structured Programming Language Laboratory</div>
+      <div class="course__meta">Sat 02:00 PM to 04:30 PM &middot; Room 627</div>
+    </div>
+  </div>
+
+  <div class="course">
+    <div class="course__key"><span class="course__code">CSE 1115</span><span class="course__role">Section D</span></div>
     <div class="course__body">
       <div class="course__title">Object Oriented Programming</div>
-      <div class="course__meta">United International University &middot; Spring 2026</div>
+      <div class="course__meta">Sat-Tue 12:31 PM to 01:50 PM &middot; Room 306</div>
     </div>
   </div>
 
   <div class="course">
-    <div class="course__key"><span class="course__code">CSE 323</span><span class="course__role">Lecturer</span></div>
+    <div class="course__key"><span class="course__code">CSE 1115</span><span class="course__role">Section F</span></div>
     <div class="course__body">
-      <div class="course__title">Object Oriented Programming Lab</div>
-      <div class="course__meta">United International University &middot; Spring 2026</div>
+      <div class="course__title">Object Oriented Programming</div>
+      <div class="course__meta">Sun-Wed 11:11 AM to 12:30 PM &middot; Room 307</div>
     </div>
   </div>
 
   <div class="course">
-    <div class="course__key"><span class="course__code">CSE 425</span><span class="course__role">Lecturer</span></div>
+    <div class="course__key"><span class="course__code">CSE 1115</span><span class="course__role">Section H</span></div>
     <div class="course__body">
-      <div class="course__title">Data Structures and Algorithm</div>
-      <div class="course__meta">United International University &middot; Spring 2026</div>
+      <div class="course__title">Object Oriented Programming</div>
+      <div class="course__meta">Sun-Wed 01:51 PM to 03:10 PM &middot; Room 306</div>
+    </div>
+  </div>
+
+  <div class="course">
+    <div class="course__key"><span class="course__code">CSE 3715</span><span class="course__role">Section A</span></div>
+    <div class="course__body">
+      <div class="course__title">Data Communication</div>
+      <div class="course__meta">Sat-Tue 09:51 AM to 11:10 AM &middot; Room 402</div>
+    </div>
+  </div>
+
+  <div class="course">
+    <div class="course__key"><span class="course__code">AIP 262</span><span class="course__role">Summer 2026</span></div>
+    <div class="course__body">
+      <div class="course__title">Courses Offered by AIP</div>
+      <div class="course__meta">BSc in CSE &middot; Trimester</div>
+    </div>
+  </div>
+
+  <div class="course">
+    <div class="course__key"><span class="course__code">CSE 1115</span><span class="course__role">Section C</span></div>
+    <div class="course__body">
+      <div class="course__title">Object Oriented Programming</div>
+      <div class="course__meta">Sat-Tue 11:11 AM to 12:30 PM &middot; Room 307</div>
+    </div>
+  </div>
+
+  <div class="course">
+    <div class="course__key"><span class="course__code">CSE 1115</span><span class="course__role">Section G</span></div>
+    <div class="course__body">
+      <div class="course__title">Object Oriented Programming</div>
+      <div class="course__meta">Sun-Wed 11:11 AM to 12:30 PM &middot; Room 307</div>
+    </div>
+  </div>
+
+  <div class="course">
+    <div class="course__key"><span class="course__code">CSE 1115</span><span class="course__role">Section H</span></div>
+    <div class="course__body">
+      <div class="course__title">Object Oriented Programming</div>
+      <div class="course__meta">Sun-Wed 08:30 AM to 09:50 AM &middot; Room 306</div>
+    </div>
+  </div>
+
+  <div class="course">
+    <div class="course__key"><span class="course__code">CSE 1116</span><span class="course__role">Section D</span></div>
+    <div class="course__body">
+      <div class="course__title">Object Oriented Programming Laboratory</div>
+      <div class="course__meta">Sun 02:00 PM to 04:30 PM &middot; Room 826</div>
+    </div>
+  </div>
+
+  <div class="course">
+    <div class="course__key"><span class="course__code">CSE 1116</span><span class="course__role">Section F</span></div>
+    <div class="course__body">
+      <div class="course__title">Object Oriented Programming Laboratory</div>
+      <div class="course__meta">Tue 02:00 PM to 04:30 PM &middot; Room 826</div>
+    </div>
+  </div>
+
+  <div class="course">
+    <div class="course__key"><span class="course__code">CSE 3715</span><span class="course__role">Section A</span></div>
+    <div class="course__body">
+      <div class="course__title">Data Communication</div>
+      <div class="course__meta">Sat-Tue 09:51 AM to 11:10 AM &middot; Room 329</div>
+    </div>
+  </div>
+
+  <div class="course">
+    <div class="course__key"><span class="course__code">AIP 261</span><span class="course__role">Spring 2026</span></div>
+    <div class="course__body">
+      <div class="course__title">Courses Offered by AIP</div>
+      <div class="course__meta">BSc in CSE &middot; Trimester</div>
+    </div>
+  </div>
+
+  <div class="course">
+    <div class="course__key"><span class="course__code">CSE 1115</span><span class="course__role">Section C</span></div>
+    <div class="course__body">
+      <div class="course__title">Object Oriented Programming</div>
+      <div class="course__meta">Sat-Tue 11:11 AM to 12:30 PM &middot; Room 305</div>
+    </div>
+  </div>
+
+  <div class="course">
+    <div class="course__key"><span class="course__code">CSE 1115</span><span class="course__role">Section E</span></div>
+    <div class="course__body">
+      <div class="course__title">Object Oriented Programming</div>
+      <div class="course__meta">Dropped &middot; Fri-Fri 00:00 AM to 00:00 AM &middot; Room 306</div>
+    </div>
+  </div>
+
+  <div class="course">
+    <div class="course__key"><span class="course__code">CSE 1116</span><span class="course__role">Section B</span></div>
+    <div class="course__body">
+      <div class="course__title">Object Oriented Programming Laboratory</div>
+      <div class="course__meta">Tue 02:00 PM to 04:30 PM &middot; Room 422</div>
+    </div>
+  </div>
+
+  <div class="course">
+    <div class="course__key"><span class="course__code">CSE 1116</span><span class="course__role">Section F</span></div>
+    <div class="course__body">
+      <div class="course__title">Object Oriented Programming Laboratory</div>
+      <div class="course__meta">Sun 02:00 PM to 04:30 PM &middot; Room 523</div>
+    </div>
+  </div>
+
+  <div class="course">
+    <div class="course__key"><span class="course__code">CSE 2215</span><span class="course__role">Section S</span></div>
+    <div class="course__body">
+      <div class="course__title">Data Structure and Algorithms I</div>
+      <div class="course__meta">Sun-Wed 11:11 AM to 12:30 PM &middot; Room 305</div>
     </div>
   </div>
 
