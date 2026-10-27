@@ -180,17 +180,17 @@ redirect_from:
   </div>
 
   <div class="course">
-    <div class="course__key"><span class="course__code">CSE 110</span><span class="course__role">Lecturer</span></div>
+    <div class="course__key"><span class="course__code">CSE 281</span><span class="course__role">Lecturer</span></div>
     <div class="course__body">
-      <div class="course__title">Structured Programming Language (C/C++)</div>
+      <div class="course__title">Introduction to Progamming II Lab (Java)</div>
       <div class="course__meta">Southeast University &middot; Fall 2025</div>
     </div>
   </div>
 
   <div class="course">
-    <div class="course__key"><span class="course__code">CSE 211</span><span class="course__role">Lecturer</span></div>
+    <div class="course__key"><span class="course__code">CSE 282</span><span class="course__role">Lecturer</span></div>
     <div class="course__body">
-      <div class="course__title">Object Oriented Programming (Java/Python)</div>
+      <div class="course__title">Introduction to Progamming II Lab (Java)</div>
       <div class="course__meta">Southeast University &middot; Fall 2025</div>
     </div>
   </div>
